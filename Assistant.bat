@@ -1,5 +1,5 @@
 @echo off
-start /min we.py
+start /MIN python.exe we.py
 echo Welcome, User!
 echo Commands may be typed below. (Type 'help' to see all commands.)
 set /p command1=
