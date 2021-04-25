@@ -3,24 +3,24 @@ A virtual assistant, made with Batch and Pyttsx3.
 Currently in development. If something doesn't work, post the error in the Issues tab.
 ___
 ## Main Commands:
-help | Shows all available commands.
+**help** | Shows all available commands.
 
-quit | Shuts the assistant down.
+**quit** | Shuts the assistant down.
 
-note | Opens a custom notepad to make reminders.
+**note** | Opens a custom notepad to make reminders.
 
-clock | Displays the current time.
+**clock** | Displays the current time.
 ___
 ## Other Commands:
-matrix | Opens a window with cool-looking matrix text on it.
+**matrix** | Opens a window with cool-looking matrix text on it.
 
-sourcecode | Opens Google Chrome with the assistant's Github repository.
+**sourcecode** | Opens Google Chrome with the assistant's Github repository.
 
-youtubeweb | Opens Google Chrome with the website 'Youtube'.
+**youtubeweb** | Opens Google Chrome with the website 'Youtube'.
 
-discordweb | Opens Google Chrome with the website 'Discord'.
+**discordweb** | Opens Google Chrome with the website 'Discord'.
 
-spotifyweb | Opens Google Chrome with the website 'Spotify'.
+**spotifyweb** | Opens Google Chrome with the website 'Spotify'.
 ___
 ## Code Examples:
 ### Main Commands:
