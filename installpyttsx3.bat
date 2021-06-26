@@ -1,4 +1,5 @@
 @echo off
+color 4
 echo If Python isn't installed, there will be an error.
 echo If you have Python installed but there is an error, try searching online.
 echo.

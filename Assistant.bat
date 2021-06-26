@@ -9,6 +9,7 @@ if %command1% == help echo Commands: note, clock, quit, matrix, sourcecode, yout
 if %command1% == quit exit /b 0
 if %command1% == clock echo Today is: && time /t && start /MIN python.exe ./sounds/main/time.py
 if %command1% == note echo Opening Note. && start noterunner.bat && start /MIN python.exe ./sounds/main/note.py
+if %command1% == clipboard echo Opening Clipboard. && start clipboardrunner.bat && start /MIN python.exe ./sounds/main/clipboard.py
 
 :: Other Commands 1 (Applications)
 if %command1% == matrix start matrixrunner.bat && start /MIN python.exe ./sounds/apps/matrix.py
@@ -27,6 +28,7 @@ if %command2% == help echo Commands: note, clock, quit, matrix, sourcecode, yout
 if %command2% == quit exit /b 0
 if %command2% == clock echo Today is: && time /t && start /MIN python.exe ./sounds/main/time.py
 if %command2% == note echo Opening Note. && start noterunner.bat && start /MIN python.exe ./sounds/main/note.py
+if %command2% == clipboard echo Opening Clipboard. && start clipboardrunner.bat && start /MIN python.exe ./sounds/main/clipboard.py
 
 :: Other Commands 2 (Applications)
 if %command2% == matrix start matrixrunner.bat && start /MIN python.exe ./sounds/apps/matrix.py
