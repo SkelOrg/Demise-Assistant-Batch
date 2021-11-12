@@ -13,7 +13,7 @@ if %command1% == clipboard echo Opening Clipboard. && start clipboardrunner.bat 
 
 :: Other Commands 1 (Applications)
 if %command1% == matrix start matrixrunner.bat && start /MIN python.exe ./sounds/apps/matrix.py
-if %command1% == sourcecode start chrome https://github.com/Skelebrine/Demise-Assistant && start /MIN python.exe ./sounds/apps/sourcecode.py
+if %command1% == sourcecode start chrome https://github.com/Skelebrine/Demise-Assistant-Batch && start /MIN python.exe ./sounds/apps/sourcecode.py
 if %command1% == youtubeweb start chrome https://www.youtube.com/ && start /MIN python.exe ./sounds/apps/youtubeweb.py
 if %command1% == discordweb start chrome https://discord.com/app && start /MIN python.exe ./sounds/apps/discordweb.py
 if %command1% == spotifyweb start chrome https://open.spotify.com/ && start /MIN python.exe ./sounds/apps/spotifyweb.py
@@ -32,7 +32,7 @@ if %command2% == clipboard echo Opening Clipboard. && start clipboardrunner.bat 
 
 :: Other Commands 2 (Applications)
 if %command2% == matrix start matrixrunner.bat && start /MIN python.exe ./sounds/apps/matrix.py
-if %command2% == sourcecode start chrome https://github.com/Skelebrine/Demise-Assistant && start /MIN python.exe ./sounds/apps/sourcecode.py
+if %command2% == sourcecode start chrome https://github.com/Skelebrine/Demise-Assistant-Batch && start /MIN python.exe ./sounds/apps/sourcecode.py
 if %command2% == youtubeweb start chrome https://www.youtube.com/ && start /MIN python.exe ./sounds/apps/youtubeweb.py
 if %command2% == discordweb start chrome https://discord.com/app && start /MIN python.exe ./sounds/apps/discordweb.py
 if %command2% == spotifyweb start chrome https://open.spotify.com/ && start /MIN python.exe ./sounds/apps/spotifyweb.py
